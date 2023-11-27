@@ -4,75 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helix Hosting</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #333;
-            display: flex;
-            justify-content: space-around;
-            padding: 10px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-        }
-
-        nav ul li a:hover {
-            background-color: #555;
-        }
-
-        .content {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Helix Hosting</h1>
+        <div class="principale">
+            <div class="logo">
+                <a href="#">Helix<span>Hosting</span></a>
+            </div>
+            <ul>
+                <li class="active">
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="plan.html">Nos plans</a>
+                </li>
+                <li>
+                    <a href="https://105.pteroserver.fr">Panel</a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/B63EKZPtcc">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="titre">
+            <h1>Helix Hosting</h1>
+        </div>
+        <div class="bouton">
+            <a href="https://discord.gg/B63EKZPtcc" class="btn">DISCORD</a>
+            <a href="https://105.petroserver.fr" class="btn">PANEL</a>
+        </div>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="#index.html">Accueil</a></li>
-            <li><a href="https://105.pteroserver.fr">Hosting</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="content">
-        <!-- Votre contenu ici -->
-    </div>
-
     <footer>
         <p>&copy; 2023 Helix Hosting. Tous droits réservés.</p>
     </footer>
