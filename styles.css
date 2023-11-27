@@ -98,3 +98,9 @@ ul li.active a{
     background-color: #00afee;
     color: #fff;
 }
+
+@media (max-width: 767px) {
+    *{
+        padding: 10px;
+    }
+}
