@@ -10,7 +10,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(noir.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/noir.png);
 }
 
 
@@ -131,9 +131,16 @@ li{
         width: 100%;
     }
 
-    nav ul li a{
+    .logo{
         display: none !important;
 
+    }
+
+    nav ul li a{
+        padding: 5px 12px;
+        border-radius: 25px;
+        font-weight: 250;
+        margin: 5px;
     }
 }
 
