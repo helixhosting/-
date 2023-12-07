@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --pricing-table-column-horizontal-padding: 36px;
+    --pricing-table-column-top-padding: 34px;
+    --pricing-table-column-bottom-padding: 28px;
+}
+
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/noir.png);
+}
+
+.titre-offre{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    top: 10px;
+}
+
+.titre1 span{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.description1{
+    margin: 0;
+    opacity: 0.7;
+    font-size: 25px;
+}
+
+.offre1{
+    background: #0C0C0C;
+    border: 1px solid #fff;
+    padding: var(--pricing-table-column-top-padding) var(--pricing-table-column-horizontal-padding) var(--pricing-table-column-bottom-padding);
+    border-radius: 50px;
+    margin-top: 5%;
+    width: 312px;
+    align-items: center;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    top: 10%;
+    left: 20%;
+}
+
+.button1{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    height: 44px;
+    margin-top: 16px;
+    position: relative;
+    transition: -webkit-filter .2s ease-in;
+    transition: filter .2s ease-in;
+    transition: filter .2s ease-in,-webkit-filter .2s ease-in;
+    width: 100%;
+}
+
+.button1 a{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    width: 800px;
+}
+
+div.active div{
+    background: #fff;
+    color: #000;
+}
+
